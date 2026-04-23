@@ -1,0 +1,12 @@
+# TIA Portal .gitignore
+# Ignore the intermediate compile data (TIA will regenerate this)
+**/IM/
+
+# Ignore local UI settings (window positions, etc.)
+**/UserFiles/
+
+# Ignore logs and temporary locks
+**/Logs/
+*.tmp
+*.log
+*.ulog
