@@ -1,13 +1,21 @@
-🤖 Automated Piece Sorting & Orientation Filter
-Software: TIA Portal V16
+# 🏭 Automated Sorting & Orientation System (TIA Portal V16)
 
-📝 Project Overview
-This project implements control logic for a material handling system designed to sort pieces by type while simultaneously performing a quality check on their orientation.
+![Status](https://img.shields.io/badge/TIA--Portal-V16-blue)
+![Platform](https://img.shields.io/badge/Hardware-S7--1200%20%2F%20S7--1500-orange)
 
-Core Functionality:
-Type Filtering: Identifies and categorizes incoming pieces.
+## 🌟 Overview
+This repository contains the control logic for an industrial sorting mechanism. The system is designed to handle high-speed material processing by filtering pieces based on type and verifying their physical orientation.
 
-Orientation Detection: Detects if a piece is "flipped" or badly positioned using sensor feedback.
+### 🔍 Key Features
+* **Smart Filtering:** Classifies different workpieces using sensor arrays.
+* **Error Detection:** Identifies "flipped" or badly positioned pieces in real-time.
+* 
+---
 
-🛠️ Requirements & Environment
-Version: Siemens TIA Portal V16 (or higher via upgrade)
+## 🛠 Technical Stack
+| Requirement | Specification |
+| :--- | :--- |
+| **Software** | Siemens TIA Portal V16 |
+
+---
+
